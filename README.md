@@ -1,4 +1,4 @@
-# My little Twitter Bot build with Tweepy in Python 3.7.3
+# My little Twitter Bot build with Tweepy 3.10.0 in Python 3.7.3
 
 (Debian Kernel Shell)
 
