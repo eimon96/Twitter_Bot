@@ -64,7 +64,7 @@ except Exception as e:
 
 # ------------------------------------- #
 
-#api.update_profile(description = "xD")
+#api.update_profile(description = "I'm a bot dabadee daba da")
 
 # -------------------------------------- #
 '''
@@ -102,9 +102,14 @@ rec = user.id_str
 
 sText = "I'm a bot dabadee daba da"
 
+sText = ["gamw th mana sou", "ante gamhsou", "na fas skata",
+         "malaka", "gamw to spiti sou", "mpetovlaka", "papara",
+         "hlithie", "gamietai h mana sou me ta kourtinoksula", "psofa"]
+
 while True:
-	dm = api.send_direct_message(rec, sText)
-	time.sleep(960)
+    r = random.randint(0, len(sText))
+    dm = api.send_direct_message(rec, sText[r])
+    time.sleep(96)
 
 # ------------------------------------------------------------- #
 
