@@ -105,8 +105,8 @@ sText = ["gamw th mana sou", "ante gamhsou", "na fas skata",
          "hlithie", "gamietai h mana sou me ta kourtinoksula", "psofa"]
 
 while True:
-    r = random.randint(0, len(sText))
-    dm = api.send_direct_message(rec, sText[r])
+    r = random.randint(1, len(sText))
+    dm = api.send_direct_message(rec, sText[r - 1])
     time.sleep(96)
 
 # ------------------------------------------------------------- #
