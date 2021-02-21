@@ -100,8 +100,6 @@ stream.filter(track=["Cyberpunk", "2077"], languages=["en"])
 user = api.get_user("A_USERNAME")
 rec = user.id_str
 
-sText = "I'm a bot dabadee daba da"
-
 sText = ["gamw th mana sou", "ante gamhsou", "na fas skata",
          "malaka", "gamw to spiti sou", "mpetovlaka", "papara",
          "hlithie", "gamietai h mana sou me ta kourtinoksula", "psofa"]
