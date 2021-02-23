@@ -1,3 +1,8 @@
+DISCLAIMER: This project is made for educational purposes as well as for fun. I dont mean to harm or offend anyone. :heart:
+
+------------------------------------------------
+
+
 # My little Twitter Bot build with Tweepy 3.10.0 in Python 3.7.3
 
 (Debian Kernel Shell)
